@@ -1,0 +1,24 @@
+# PHP依赖
+/vendor/
+composer.lock
+
+# 日志、缓存
+/logs/
+/cache/
+*.log
+
+# 敏感配置文件
+.env
+config.php
+db_config.php
+
+# 编辑器、系统垃圾文件
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 临时上传目录
+tmp/
+upload/temp/
